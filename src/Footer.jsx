@@ -45,6 +45,7 @@ export function Footer() {
           </div>
         </div>
       </div>
+      <div id="contact"></div>
     </footer>
   );
 }

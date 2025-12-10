@@ -47,9 +47,9 @@ export default function LandingPage() {
           <div className="site-name">Gạo Thiên Phúc</div>
 
           <nav className={`nav ${mobileOpen ? 'open' : ''}`} aria-label="Chính">
-            <a href="" className="nav-link" onClick={() => setMobileOpen(false)}>Liên Hệ</a>
-            <a href="" className="nav-link" onClick={() => setMobileOpen(false)}>Sản Phẩm</a>
-            <a href="" className="nav-link" onClick={() => setMobileOpen(false)}>Tuyển Dụng</a>
+            <a href="#contact" className="nav-link" onClick={() => setMobileOpen(false)}>Liên Hệ</a>
+            <a href="#products" className="nav-link" onClick={() => setMobileOpen(false)}>Sản Phẩm</a>
+            <a href="#contact" className="nav-link" onClick={() => setMobileOpen(false)}>Tuyển Dụng</a>
             <button className="nav-cta btn" onClick={() => setMobileOpen(false)}>Trang Chủ</button>
           </nav>
 
