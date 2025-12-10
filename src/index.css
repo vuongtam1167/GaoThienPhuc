@@ -81,6 +81,38 @@ body {
 }
 
 /* Mobile menu toggle */
+/* --- Mobile Nav Fix --- */
+.nav {
+  display: none;
+}
+
+.nav.open {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: white;
+  padding: 16px;
+  position: absolute;
+  top: 60px;
+  right: 16px;
+  left: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+@media(min-width: 768px) {
+  .nav {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    gap: 24px;
+    box-shadow: none;
+    padding: 0;
+    background: none;
+  }
+}
+
+
 .mobile-toggle { display: none; }
 .mobile-btn {
   background: transparent;
